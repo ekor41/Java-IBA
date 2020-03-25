@@ -7,7 +7,7 @@ public class TestAccount2{
         Account acct= new Account(100);
         acct.deposit(47);
         acct.withrdaw(150);
-        System.out.println("dobavil");
+        System.out.println("izmenil");
         System.out.println("poluchilos "+acct.getBalance());
     }
 }
